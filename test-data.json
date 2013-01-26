@@ -1,17 +1,17 @@
 [
     {
-        "url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=818",
-        "trust-url": "http://www.aintreehospitals.nhs.uk",
+        "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=818",
+        "site-url": "http://www.aintreehospitals.nhs.uk",
         "name": "Aintree University Hospital NHS Foundation Trust"
     },
     {
-        "url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=103",
-        "trust-url": "http://www.airedale-trust.nhs.uk/",
+        "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=103",
+        "site-url": "http://www.airedale-trust.nhs.uk/",
         "name": "Airedale NHS Foundation Trust"
     },
     {
-        "url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=827",
-        "trust-url": "http://www.alderhey.com",
+        "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=827",
+        "site-url": "http://www.alderhey.com",
         "name": "Alder Hey Children's NHS Foundation Trust"
     }
 ]
