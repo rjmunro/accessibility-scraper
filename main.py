@@ -25,9 +25,8 @@ def checkFile(url):
         fileBool = False
     return {'present': fileBool, 'contents' : fileText}
 
-def checkLinkTags(siteCall):
-    pageHTML = lxml.html.fromstring(siteCall.read())
-    linkTags = pageHTML.cssselect('link')
+def checkLinkTags(pageHtml):
+    linkTags = pageHtml.cssselect('link')
     links = {}
     for link in linkTags:
        links.setdefault(link.attrib['rel'].decode(),[]).append(link.attrib['href'].decode())
@@ -63,7 +62,10 @@ for site in sites:
     homePageObj = urllib2.urlopen(site['site-url'])
     robots = checkFile(site['site-url'] + '/robots.txt')
     humans = checkFile(site['site-url'] + '/humans.txt')
-    links = checkLinkTags(homePageObj)
+    homePageHtml = homePageObj.read()
+    rootNode = lxml.html.fromstring(homePageHtml)
+    site['doctype'] = getDoctype(homePageHtml)
+    links = checkLinkTags(rootNode)
 
     site['headers'] = getHeaders(homePageObj)
     site['robots'] = robots['present']
@@ -71,9 +73,7 @@ for site in sites:
     site['humans'] = humans['present']
     site['ssl'] = getSsl(site, homePageObj)
 
-    homePageHtml = homePageObj.read()
-    rootNode = lxml.html.fromstring(homePageHtml)
-    site['doctype'] = getDoctype(homePageHtml)
+    
 
     # Print site on screen. TODO: Save this info to a file
     pprint(site)
