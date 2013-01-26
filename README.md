@@ -12,6 +12,7 @@ Done
 Useful files on site:
 * robots.txt
 * humans.txt
+* sitemaps.xml
 
 Server:
 * https avaialable
