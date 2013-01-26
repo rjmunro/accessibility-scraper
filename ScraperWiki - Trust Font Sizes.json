@@ -1,0 +1,112 @@
+[
+    {
+        "website": "East and North Hertfordshire NHS Trust",
+        "font-size": "3.5em",
+        "element": "li.ngg-prev"
+    },
+    {
+        "website": "East Lancashire Hospitals NHS Trust",
+        "font-size": "0.8em",
+        "element": "#footer"
+    },
+    {
+        "website": "Lancashire Teaching Hospitals NHS Foundation Trust",
+        "font-size": "13px",
+        "element": ".gsc-completion-container"
+    },
+    {
+        "website": "Leeds Teaching Hospitals NHS Trust",
+        "font-size": "1.0em",
+        "element": "table"
+    },
+    {
+        "website": "Northern Devon Healthcare NHS Trust",
+        "font-size": ".85em",
+        "element": ".copyright"
+    },
+    {
+        "website": "Papworth Hospital NHS Foundation Trust",
+        "font-size": "0.8em",
+        "element": "a"
+    },
+    {
+        "website": "Sandwell and West Birmingham Hospitals NHS Trust",
+        "font-size": "90%",
+        "element": "p.nsp_info"
+    },
+    {
+        "website": "Sherwood Forest Hospitals NHS Foundation Trust",
+        "font-size": "1.2em",
+        "element": "_catlink"
+    },
+    {
+        "website": "South Tees Hospitals NHS Foundation Trust",
+        "font-size": "16px",
+        "element": ".slide-controls"
+    },
+    {
+        "website": "Tameside Hospital NHS Foundation Trust",
+        "font-size": "1em",
+        "element": "abel"
+    },
+    {
+        "website": "The Queen Elizabeth Hospital, King's Lynn. NHS Foundation Trust",
+        "font-size": "100%",
+        "element": "code"
+    },
+    {
+        "website": "The Royal Orthopaedic Hospital NHS Foundation Trust",
+        "font-size": "8pt",
+        "element": "small"
+    },
+    {
+        "website": "The Walton Centre NHS Foundation Trust",
+        "font-size": "80%",
+        "element": "a.link"
+    },
+    {
+        "website": "University Hospital Of South Manchester NHS Foundation Trust",
+        "font-size": "13px",
+        "element": ".gsc-completion-container"
+    },
+    {
+        "website": "Bedford Hospital NHS Trust",
+        "font-size": "14px",
+        "element": "div"
+    },
+    {
+        "website": "Birmingham Children's Hospital NHS Foundation Trust",
+        "font-size": "15px",
+        "element": "li"
+    },
+    {
+        "website": "Birmingham Women's NHS Foundation Trust",
+        "font-size": "80%",
+        "element": "a.link"
+    },
+    {
+        "website": "Calderdale and Huddersfield NHS Foundation Trust",
+        "font-size": "12px",
+        "element": "#topbar.default"
+    },
+    {
+        "website": "Cambridge University Hospitals NHS Foundation Trust",
+        "font-size": "30px",
+        "element": "p.titleadd"
+    },
+    {
+        "website": "Chelsea and Westminster Hospital NHS Foundation Trust",
+        "font-size": "15px",
+        "element": "legend"
+    },
+    {
+        "website": "Doncaster and Bassetlaw Hospitals NHS Foundation Trust",
+        "font-size": "1em",
+        "element": "button"
+    },
+    {
+        "website": "Ashford and St Peter's Hospitals NHS Foundation Trust",
+        "font-size": "1.1em",
+        "element": ".news_title"
+    }
+]
