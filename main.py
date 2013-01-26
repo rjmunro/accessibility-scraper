@@ -1,10 +1,18 @@
 #!/usr/bin/env python
+import io
+import re
 import json
 import urllib2
 import lxml.html
 from doctype import getDoctype
 from pprint import pprint
 import lxml.html
+
+nameRegexs = [
+    re.compile(r"www\.([^.]*)\."),
+    re.compile(r"http://(.*)\.nhs.uk"),
+    re.compile(r"http://([^.]*)\.")
+]
 
 def getHeaders(pageObj):
     return {
@@ -73,10 +81,17 @@ for site in sites:
     site['humans'] = humans['present']
     site['ssl'] = getSsl(site, homePageObj)
 
-    
+    for re in nameRegexs:
+        m = re.search(site['site-url'])
+        if m:
+           cleanname = m.groups(1)[0]
+           break
 
-    # Print site on screen. TODO: Save this info to a file
-    pprint(site)
+    with io.open('output/%s.json' % cleanname, 'wb') as outfile:
+        json.dump(site, outfile, sort_keys=True, indent=4, separators=(',', ': '))
+        outfile.write("\n")
+
+    print "Done '%s' in file '%s.json'" % (site['name'], cleanname)
 
 siteFile.close()
 
