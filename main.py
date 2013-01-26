@@ -15,6 +15,17 @@ nameRegexs = [
     re.compile(r"http://([^.]*)\.")
 ]
 
+class NoRedirection(urllib2.HTTPErrorProcessor):
+
+    def http_response(self, request, response):
+        code, msg, hdrs = response.code, response.msg, response.info()
+
+        return response
+
+    https_response = http_response
+
+opener = urllib2.build_opener(NoRedirection)
+
 def getHeaders(pageObj):
     return {
         'poweredBy': pageObj.info().getheader('X-powered-by'),
@@ -25,7 +36,7 @@ def checkFile(url):
     fileBool = False
     fileText = ""
     try:
-        fileCall = urllib2.urlopen(url)
+        fileCall = opener.open(url)
         if (fileCall.getcode() != 200):
             # we've been redirected
             fileBool = False
