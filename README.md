@@ -13,6 +13,10 @@ Useful files on site:
 * robots.txt
 * humans.txt
 
+Server:
+* https avaialable
+* https by default (are we redirected)
+
 TODO:
 -----
 
@@ -23,8 +27,6 @@ Useful files on site:
 Server:
 * Server tech (from headers)
 * Hosting company (from whois of IP address)
-* https avaialable
-* https by default (are we redirected)
 
 HTML:
 * doctype
