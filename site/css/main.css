@@ -5,6 +5,12 @@ body {
     font-weight: 100;     
 }
 
+li {
+    list-style-type: none;
+
+
+}
+
 
 /* Custom container */
 .container-narrow {
@@ -64,12 +70,14 @@ h2 {
     margin: 15px 15px 0 0;
 }
 
-.container .row div {
-    background-color: #fff;
-    margin-bottom: 15px;
-    padding: 15px;
-}
-
 form {
     margin-top: 20px;
 }
+
+.thumbnail {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 30px;
+
+}
+
