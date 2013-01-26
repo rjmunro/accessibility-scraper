@@ -11,7 +11,7 @@
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/bootstrap-responsive.css" rel="stylesheet">
         <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/main.css">           
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
     
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -29,26 +29,31 @@
 
     <body>      
         <header>
-            <div class="container">  
+            <div>
+                <div class="search">
+                    <form>
+                        <div class="input-prepend">
+                            <span class="add-on"><i class="icon-search"></i></span>
+                                <input class="span2" type="text" placeholder="Search">
+                        </div>
+                    </form>
+                </div>
                 <div class="btn-group">
                     <button class="btn" href="#"><i class="icon-print"></i> Print</button>
-                </div>
-            
+                </div>                
+            </div>
+            <div class="container">  
                 <h1>Are <span class="fontbold">NHS</span> websites <span class="fontbold">accessible</span>?</h1>
                 
                 <div class="row">
-                    <div class="circle span1 offset5"><i class="icon-desktop icon-2x"></i></div>
+                    <div class="span12">
+                        <div class="circle"><i class="icon-desktop icon-2x"></i></div>
+                    </div>
                 </div>   
 
                 <div class="row">
-                    <div class="span5 offset4">
-                        <p>The NHS websites tech audit.</p>
-                        <form>
-                            <div class="input-prepend">
-                                <span class="add-on"><i class="icon-search"></i></span>
-                                <input class="span2" type="text" placeholder="Search">
-                            </div>
-                        </form>
+                    <div class="span12">
+                        <p class="tagline">The NHS websites tech audit.</p>
                     </div>
                 </div>
             </div>
@@ -58,43 +63,89 @@
          <section>
             <div class="container"> 
                 <div class="row">
-                    <div class="span8">
+                    <div class="span8 offset2">
                         <div class="thumbnail">
-                            <h2>Thumbnail label</h2>
-                            <p>Thumbnail caption...</p>
+                            <h2>Overall accessibility</h2>
+                            <div>
+                                <span class="bignumbers">24%</span>
+                                <span>of NHS websites are accessible</span>
+                            </div>
                         </div>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="span4">
+                        <div class="thumbnail">
+                            <h2>Overall accessibility</h2>
+                            <p>Thumbnail caption...</p>
+                            <div class="summary">
+                                <span class="bignumbers">24%</span>
+                                <span>works on mobile</span>
+                            </div>
+                        </div>
+                    </div>                    
                      <div class="span4">
                         <div class="thumbnail">
-                            <h2>Thumbnail label</h2>
-                            <p>Thumbnail caption...</p>
+                            <h2>Works on mobile</h2>
+                            <p>Has media queries or a mobile version of the site</p>
+                            <div class="summary">
+                                <span class="bignumbers">24%</span>
+                                <span>works on mobile</span>
+                                <div id="container"></div>
+                            </div>
                         </div>
-                    </div>                                     
+                    </div>     
+                    <div class="span4">
+                        <div class="thumbnail">
+                            <h2>Works on mobile</h2>
+                            <p>Has media queries or a mobile version of the site</p>
+                            <div class="summary">
+                                <span class="bignumbers">24%</span>
+                                <span>works on mobile</span>
+                                <div id="container"></div>
+                            </div>
+                        </div>
+                    </div>                                                    
                 </div>
 
                 <div class="row">
                     <div class="span4">
                         <div class="thumbnail">
-                            <h2>Thumbnail label</h2>
+                            <h2>Uses latest technology</h2>
+                            <p>Uses HTML5 and CSS3</p>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="thumbnail">
+                            <h2>Overall loading time</h2>
                             <p>Thumbnail caption...</p>
                         </div>
                     </div>
                     <div class="span4">
                         <div class="thumbnail">
-                            <h2>Thumbnail label</h2>
-                            <p>Thumbnail caption...</p>
-                        </div>
-                    </div>
-                    <div class="span4">
-                        <div class="thumbnail">
-                            <h2>Thumbnail label</h2>
+                            <h2>Font contrast</h2>
                             <p>Thumbnail caption...</p>
                         </div>
                     </div>                                      
                 </div>
+                <div class="row">
+                    <div class="span4">
+                        <div class="thumbnail">
+                            <h2>Works for screen readers</h2>
+                            <p>Uses HTML5 and CSS3</p>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="thumbnail">
+                            <h2>Google translate</h2>
+                            <p>Thumbnail caption...</p>
+                        </div>
+                    </div>                                     
+                </div>                
                 <hr>
             </div>
         </section>
+
         <section>
             <div class="container">
                 <div class="row">
@@ -198,28 +249,26 @@
                 </div>
             </div>
         </section>
-            <footer>
-                <p>About</p>
-            </footer>
-        </div>
-        
+
+        <footer>
+            <div class="container">
+                <div class="row">  
+                    <div class="span12">              
+                        <p>About</p>
+                    </div>
+                </div>
+            </div>     
+        </footer>        
 
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap-transition.js"></script>
-    <script src="js/bootstrap-alert.js"></script>
-    <script src="js/bootstrap-modal.js"></script>
-    <script src="js/bootstrap-dropdown.js"></script>
-    <script src="js/bootstrap-scrollspy.js"></script>
-    <script src="js/bootstrap-tab.js"></script>
-    <script src="js/bootstrap-tooltip.js"></script>
-    <script src="js/bootstrap-popover.js"></script>
-    <script src="js/bootstrap-button.js"></script>
-    <script src="js/bootstrap-collapse.js"></script>
-    <script src="js/bootstrap-carousel.js"></script>
-    <script src="js/bootstrap-typeahead.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Highcharts -->
+    <script src="http://code.highcharts.com/modules/exporting.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="js/graphs/graphtest.js"></script>
 
   </body>
 </html>
