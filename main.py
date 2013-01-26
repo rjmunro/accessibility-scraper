@@ -8,7 +8,8 @@ def getHeaders(pageObj):
         'server': pageObj.info().getheader('Server')
     }
 
-siteFile = open('ScraperWiki - Trust URLs.json');
+siteFile = open('all-sites.json');
+#siteFile = open('test-data.json');
 sites = json.load(siteFile)
 for site in sites:
     homePageObj = urllib2.urlopen(site['site-url'])
