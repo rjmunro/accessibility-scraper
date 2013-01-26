@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 import json
 import urllib2
+import lxml.html
+from doctype import getDoctype
 from pprint import pprint
 import lxml.html
 
@@ -68,6 +70,10 @@ for site in sites:
     site['sitemap'] = checkSiteMap(robots['contents'], links)
     site['humans'] = humans['present']
     site['ssl'] = getSsl(site, homePageObj)
+
+    homePageHtml = homePageObj.read()
+    rootNode = lxml.html.fromstring(homePageHtml)
+    site['doctype'] = getDoctype(homePageHtml)
 
     # Print site on screen. TODO: Save this info to a file
     pprint(site)
