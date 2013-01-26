@@ -5,6 +5,26 @@ body {
     font-weight: 100;     
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', Arial, sans-serif;   
+    font-weight: 100; 
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 5.5em; 
+    text-align: center;
+    margin-top: 80px;
+    line-height: 2em;
+    color: #141414;
+}
+
+h2 {
+    font-size: 1.4em;
+    line-height: 1em;
+}
+
+
 li {
     list-style-type: none;
 
@@ -22,14 +42,8 @@ li {
     font-weight: 300;
 }
 
-h1 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    font-size: 5em; 
-    text-align: center;
-    margin-top: 80px;
-    line-height: 1em;
-}
+
+
 
 .tagline {
     text-align: center;
@@ -45,14 +59,15 @@ h1 {
 }
 
 .circle {
-    width:80px;
-    height:80px;
-    border-radius:50px;
+    width:60px;
+    height:60px;
+    border-radius:30px;
     color:#fff;
-    line-height:100px;
+    line-height:75px;
     text-align:center;
     background:#fff;
     margin-bottom: 15px;
+    margin: 10px auto 0;
 }
 
 .icon-print {
@@ -60,14 +75,11 @@ h1 {
 }
 
 
-h2 {
-
-}
 
 .btn-group
 {
     float: right;
-    margin: 15px 15px 0 0;
+    margin: 20px 15px 0 0;
 }
 
 form {
@@ -80,4 +92,26 @@ form {
     margin-bottom: 30px;
 
 }
+
+.bignumbers {
+    font-weight: 300; 
+    font-size: 6em;
+    line-height: 1em;
+}
+
+.summary {
+    background-color: #11B8BC;
+    margin-bottom: 15px;
+}
+
+.tagline {
+    font-size: 1.6em;
+    margin: 15px auto 5px;
+}
+
+.search, .btn-group {
+    float: right;
+    margin-right: 15px;
+}
+
 
