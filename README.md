@@ -3,6 +3,8 @@ accessibilty-scraper
 
 Scripts to scrape a site and detect information about the accessibility and other technology it's using.
 
+Originally written at NHS Hack day Oxford 2013 for the NHS Web site technology audit project/team.
+
 We aim to detect as many of the following features as possible:
 
 Done
@@ -62,3 +64,10 @@ Other (whole site scanning?):
 * PDFs to download, word docs to download
 * Any AJAX use?
 
+
+Setup
+=====
+Requires python with lxml, cssselect
+
+    sudo easy_install lxml
+    sudo easy_install cssselect
