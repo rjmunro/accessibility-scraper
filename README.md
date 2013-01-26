@@ -9,15 +9,15 @@ We aim to detect as many of the following features as possible:
 
 Done
 ----
-[nothing yet]
+Useful files on site:
+* robots.txt
+* humans.txt
 
 TODO:
 -----
 
 Useful files on site:
-* robots.txt
 * XML site map
-* humans.txt
 * Favicon, apple touch icon etc. - (might check for standard ones from wordpress etc)
 
 Server:
