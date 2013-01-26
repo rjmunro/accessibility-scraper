@@ -24,8 +24,8 @@ for site in sites:
     homePageObj = urllib2.urlopen(site['site-url'])
 
     site['headers'] = getHeaders(homePageObj)
-    site['robots'] = checkFile(trust['trust-url'] + '/robots.txt')
-    site['humans'] = checkFile(trust['trust-url'] + '/humans.txt')
+    site['robots'] = checkFile(site['site-url'] + '/robots.txt')
+    site['humans'] = checkFile(site['site-url'] + '/humans.txt')
 
     # Print site on screen. TODO: Save this info to a file
     pprint(site)
