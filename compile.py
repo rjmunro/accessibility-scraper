@@ -42,6 +42,6 @@ for infile in listing:
 #create JSONfile
 overJSON = {'robotsTrue':robotsTrue,'robotsFalse':robotsFalse,'humansTrue':humansTrue,'doctypes':doctypes,'servers':servers,'frameworks':frameworks,'sitemap':sitemapTrue,'ssl':sslTrue}
 #print
-outfile = io.open('output/overview.json', 'wb')
+outfile = io.open('overview.json', 'wb')
 json.dump(overJSON, outfile, sort_keys = True, indent=4, separators=(',', ': '))
 outfile.write('\n')
