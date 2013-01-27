@@ -90,13 +90,19 @@ footer {
     margin-top: 25px;
 }
 
-footer p {
+footer p, footer li {
     font-weight: 300;
     font-size: 15px;
+    color: #231F20;   
 }
 
-footer h4{
+footer h4, footer a{
     color: #eeefef;
+}
+
+footer a {
+    color: #231F20;
+    text-decoration: underline;;
 }
 
 /* BIG NUMBERS AND GRAPHS */
