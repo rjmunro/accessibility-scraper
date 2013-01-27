@@ -219,8 +219,35 @@
 		});
 		$(".trusts ul li a").click(function(){
 			event.preventDefault();
-			//trustJSON = $(this).attr['class'];
-			$.colorbox({html:'<h1>hi</h1>'});
+			trustJSON = $(this).attr['class'];
+			trustHTML = "";
+			$.getJSON('output/'+trustJSON+'.json',function(data){
+				trustHTML = '<h1>' + data['name'] + '</h1>';
+				trustHTML += '<dl class="dl-horizontal">';
+				trustHTML += '<dt>Site URL
+				trustHTML += '<dd>' + data['site-url'] + '</dd>';
+
+				trustHTML += '<dt>Doctype</dt>';
+				trustHTML += '<dd>' + data['doctype'] + '</dd>';
+
+				trustHTML += '<dt>Server</dt>';
+				trustHTML += '<dd>' + data['headers']['server'] + '</dd>';
+				trustHTML += '<dt>Framework</dt>';
+				trustHTML += '<dd>' + data['headers']['poweredBy'] + '</dd>';
+				trustHTML += '<dt>Uses humans.txt?</dt>';
+				trustHTML += '<dd>' + data['humans'] + '</dd>';
+				trustHTML += '<dt>Uses robots.txt?</dt>';
+				trustHTML += '<dd>' + data['robots'] + '</dd>';
+				trustHTML += '<dt>NHS Choices URL</dt>';
+				trustHTML += '<dd>' + data['listing-url'] + '</dd>';
+				trustHTML += '<dt>Has a sitemap available?</dt>';
+				trustHTML += '<dd>' + data['sitemap'] + '</dd>';
+				trustHTML += '<dt>Offers secure browsing (https)</dt>';
+				trustHTML += '<dd>' + data['ssl'] + '</dd>';
+v
+				trustHTML += '</dl>';
+			});
+			$.colorbox({html:trustHTML});
 		});
 	});
     </script>
