@@ -222,6 +222,7 @@
 			trustJSON = $(this).attr['class'];
 			trustHTML = "";
 			$.getJSON('output/'+trustJSON+'.json',function(data){
+				console.log(data);
 				trustHTML = '<h1>' + data['name'] + '</h1>';
 				trustHTML += '<dl class="dl-horizontal">';
 				trustHTML += '<dt>Site URL</dt>';
