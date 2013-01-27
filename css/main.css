@@ -3,7 +3,6 @@ body {
     border-top: 6px #11B8BC solid;
     font-family: 'Roboto', Arial, sans-serif;   
     font-weight: 100; 
-    margin-bottom: 25px; 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,8 +27,14 @@ li {
     list-style-type: none;
 }
 
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
 a {
     color: #11B8BC;
+    font-weight: 300;     
 }
 
 .container-narrow {
@@ -77,6 +82,21 @@ form {
     padding: 15px;
     margin-bottom: 30px;
 
+}
+
+footer {
+    background-color: #11B8BC;
+    padding: 20px 0; 
+    margin-top: 25px;
+}
+
+footer p {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+footer h4{
+    color: #eeefef;
 }
 
 /* BIG NUMBERS AND GRAPHS */
