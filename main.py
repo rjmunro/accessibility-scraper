@@ -7,6 +7,7 @@ import lxml.html
 from doctype import getDoctype
 from pprint import pprint
 import lxml.html
+import codecs
 
 nameRegexs = [
     re.compile(r"www\.([^.]*)\."),
@@ -71,6 +72,8 @@ for site in sites:
     robots = checkFile(site['site-url'] + '/robots.txt')
     humans = checkFile(site['site-url'] + '/humans.txt')
     homePageHtml = homePageObj.read()
+    if homePageHtml.startswith(codecs.BOM_UTF8):
+        homePageHtml = homePageHtml[len(codecs.BOM_UTF8):]
     rootNode = lxml.html.fromstring(homePageHtml)
     site['doctype'] = getDoctype(homePageHtml)
     links = checkLinkTags(rootNode)
