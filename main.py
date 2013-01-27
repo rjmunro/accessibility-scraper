@@ -105,6 +105,8 @@ for site in sites:
     site['ssl'] = getSsl(site, homePageObj)
     site['cms'] = getCMS(homePageHtml, robots['contents'])
 
+    site['changesEachLoad'] = checkFile(site['site-url'])['contents'] != homePageHtml
+
     for re in nameRegexs:
         m = re.search(site['site-url'])
         if m:
