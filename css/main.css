@@ -39,6 +39,7 @@ ul, li {
 a {
     color: #11B8BC;
     font-weight: 300;     
+    cursor: pointer;
 }
 
 .container-narrow {
