@@ -29,7 +29,6 @@ li {
 
 ul, li {
     margin: 0;
-    padding: 0;
 }
 
 a {
@@ -139,7 +138,7 @@ footer .nhshd {
 
 /* ICONS */
 
-.icon-desktop {
+.icon-desktop, .icon-hospital {
     color: #11B8BC;
     text-align: center;
     margin-bottom: 15px;
