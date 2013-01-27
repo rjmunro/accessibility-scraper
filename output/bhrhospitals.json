@@ -1,0 +1,14 @@
+{
+    "doctype": null,
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/6.0"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=27",
+    "name": "Barking, Havering and Redbridge University Hospitals NHS Trust",
+    "robots": true,
+    "site-url": "http://www.bhrhospitals.nhs.uk/",
+    "sitemap": false,
+    "ssl": "yes"
+}

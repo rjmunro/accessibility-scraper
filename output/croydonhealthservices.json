@@ -1,0 +1,14 @@
+{
+    "doctype": null,
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/6.0"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1240",
+    "name": "Croydon Health Services NHS Trust",
+    "robots": true,
+    "site-url": "http://www.croydonhealthservices.nhs.uk/",
+    "sitemap": false,
+    "ssl": "yes"
+}

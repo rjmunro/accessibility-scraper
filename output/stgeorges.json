@@ -1,0 +1,14 @@
+{
+    "doctype": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/7.5"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1290",
+    "name": "St George's Healthcare NHS Trust",
+    "robots": false,
+    "site-url": "http://www.stgeorges.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

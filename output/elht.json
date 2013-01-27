@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.0 (loose)",
+    "headers": {
+        "poweredBy": "PHP/5.2.6",
+        "server": "Apache"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=939",
+    "name": "East Lancashire Hospitals NHS Trust",
+    "robots": false,
+    "site-url": "http://www.elht.nhs.uk/",
+    "sitemap": false,
+    "ssl": "yes"
+}

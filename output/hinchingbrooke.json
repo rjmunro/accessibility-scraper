@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.0 (loose)",
+    "headers": {
+        "poweredBy": "PHP/5.1.6",
+        "server": "Apache/2.2.3 (Red Hat)"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=2054",
+    "name": "Hinchingbrooke Health Care NHS Trust",
+    "robots": false,
+    "site-url": "http://www.hinchingbrooke.nhs.uk/",
+    "sitemap": false,
+    "ssl": "yes"
+}

@@ -1,0 +1,14 @@
+{
+    "doctype": "HTML 4.01 (loose)",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/6.0"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=818",
+    "name": "Aintree University Hospital NHS Foundation Trust",
+    "robots": false,
+    "site-url": "http://www.aintreehospitals.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

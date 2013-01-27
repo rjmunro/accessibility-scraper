@@ -1,0 +1,14 @@
+{
+    "doctype": "HTML 5",
+    "headers": {
+        "poweredBy": "PHP/5.2.14",
+        "server": "Apache"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=297",
+    "name": "Royal National Hospital For Rheumatic Diseases NHS Foundation Trust",
+    "robots": false,
+    "site-url": "http://www.rnhrd.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

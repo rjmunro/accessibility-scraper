@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.1",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/7.5"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=969",
+    "name": "Kettering General Hospital NHS Foundation Trust",
+    "robots": false,
+    "site-url": "http://www.kgh.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

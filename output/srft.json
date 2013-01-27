@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.1",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/7.5"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1155",
+    "name": "Salford Royal NHS Foundation Trust",
+    "robots": false,
+    "site-url": "http://www.srft.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

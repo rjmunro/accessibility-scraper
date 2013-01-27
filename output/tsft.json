@@ -1,0 +1,14 @@
+{
+    "doctype": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\">",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": null
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=149",
+    "name": "Taunton and Somerset NHS Foundation Trust",
+    "robots": false,
+    "site-url": "http://www.tsft.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

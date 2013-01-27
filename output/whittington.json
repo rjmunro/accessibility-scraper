@@ -1,0 +1,14 @@
+{
+    "doctype": null,
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/6.0"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=2115",
+    "name": "The Whittington Hospital NHS Trust",
+    "robots": false,
+    "site-url": "http://www.whittington.nhs.uk/",
+    "sitemap": false,
+    "ssl": "yes"
+}

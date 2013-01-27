@@ -1,0 +1,14 @@
+{
+    "doctype": "HTML 5",
+    "headers": {
+        "poweredBy": "PHP/5.3.17",
+        "server": "Apache/2.2.23 (Unix) mod_ssl/2.2.23 OpenSSL/1.0.0-fips mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=2285",
+    "name": "Sandwell and West Birmingham Hospitals NHS Trust",
+    "robots": true,
+    "site-url": "http://www.swbh.nhs.uk/",
+    "sitemap": true,
+    "ssl": "always"
+}

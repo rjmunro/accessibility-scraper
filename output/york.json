@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.1",
+    "headers": {
+        "poweredBy": "PHP/5.3.2, ASP.NET",
+        "server": "Microsoft-IIS/7.5"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=774",
+    "name": "York Teaching Hospital NHS Foundation Trust",
+    "robots": false,
+    "site-url": "http://www.york.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

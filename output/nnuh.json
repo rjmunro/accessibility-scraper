@@ -1,0 +1,14 @@
+{
+    "doctype": null,
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/7.5"
+    },
+    "humans": true,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1102",
+    "name": "Norfolk and Norwich University Hospitals NHS Foundation Trust",
+    "robots": true,
+    "site-url": "http://www.nnuh.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

@@ -1,0 +1,14 @@
+{
+    "doctype": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml2/DTD/xhtml1-strict.dtd\">",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/7.0"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1990",
+    "name": "United Lincolnshire Hospitals NHS Trust",
+    "robots": false,
+    "site-url": "http://www.ulh.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

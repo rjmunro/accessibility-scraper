@@ -1,0 +1,14 @@
+{
+    "doctype": "HTML 4.01 (loose)",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/6.0"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=901",
+    "name": "Wrightington, Wigan and Leigh NHS Foundation Trust",
+    "robots": false,
+    "site-url": "http://www.wwl.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.0 (strict)",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/6.0"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1882",
+    "name": "The Newcastle Upon Tyne Hospitals NHS Foundation Trust",
+    "robots": false,
+    "site-url": "http://www.newcastle-hospitals.nhs.uk/",
+    "sitemap": false,
+    "ssl": "yes"
+}

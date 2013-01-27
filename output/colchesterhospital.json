@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.0 (loose)",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/5.0"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=56",
+    "name": "Colchester Hospital University NHS Foundation Trust",
+    "robots": true,
+    "site-url": "http://www.colchesterhospital.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

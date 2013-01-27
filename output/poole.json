@@ -1,0 +1,14 @@
+{
+    "doctype": null,
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/5.0"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=202",
+    "name": "Poole Hospital NHS Foundation Trust",
+    "robots": true,
+    "site-url": "http://www.poole.nhs.uk/",
+    "sitemap": false,
+    "ssl": "yes"
+}

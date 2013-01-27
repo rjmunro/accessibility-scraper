@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.0 (strict)",
+    "headers": {
+        "poweredBy": "PHP/5.2.4-2ubuntu5.26",
+        "server": "Apache/2.2.8 (Ubuntu) mod_jk/1.2.25 mod_python/3.3.1 Python/2.5.2 PHP/5.2.4-2ubuntu5.26 with Suhosin-Patch mod_ssl/2.2.8 OpenSSL/0.9.8g mod_perl/2.0.3 Perl/v5.8.8"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=344",
+    "name": "Heatherwood and Wexham Park Hospitals NHS Foundation Trust",
+    "robots": true,
+    "site-url": "http://www.heatherwoodandwexham.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

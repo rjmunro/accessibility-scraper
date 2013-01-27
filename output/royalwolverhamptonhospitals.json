@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.0 (strict)",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/6.0"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1388",
+    "name": "The Royal Wolverhampton Hospitals NHS Trust",
+    "robots": false,
+    "site-url": "http://www.royalwolverhamptonhospitals.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

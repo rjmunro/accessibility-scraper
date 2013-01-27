@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.0 (loose)",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/7.5"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1826",
+    "name": "Medway NHS Foundation Trust",
+    "robots": true,
+    "site-url": "http://www.medway.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

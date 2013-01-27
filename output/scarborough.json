@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.0 (loose)",
+    "headers": {
+        "poweredBy": "PHP/5.2.17, PleskLin",
+        "server": "Apache/2.2"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=685",
+    "name": "Scarborough and North East Yorkshire Health Care NHS Trust",
+    "robots": true,
+    "site-url": "http://www.scarborough.nhs.uk/",
+    "sitemap": false,
+    "ssl": "yes"
+}

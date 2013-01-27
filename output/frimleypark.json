@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.0 (loose)",
+    "headers": {
+        "poweredBy": "PHP/5.3.5-1ubuntu7.4",
+        "server": "Apache/2.2.17 (Ubuntu)"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=225",
+    "name": "Frimley Park Hospital NHS Foundation Trust",
+    "robots": true,
+    "site-url": "http://www.frimleypark.nhs.uk/",
+    "sitemap": false,
+    "ssl": "yes"
+}

@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML+RDFA 1.0",
+    "headers": {
+        "poweredBy": null,
+        "server": "Apache"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=2196",
+    "name": "Gateshead Health NHS Foundation Trust",
+    "robots": true,
+    "site-url": "http://www.gatesheadhealth.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

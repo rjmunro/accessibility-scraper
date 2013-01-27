@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.0 (strict)",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/7.0"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=713",
+    "name": "Royal Surrey County NHS Foundation Trust",
+    "robots": false,
+    "site-url": "http://www.royalsurrey.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

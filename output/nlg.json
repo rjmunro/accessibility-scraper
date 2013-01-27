@@ -1,0 +1,14 @@
+{
+    "doctype": null,
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/5.0"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1726",
+    "name": "Northern Lincolnshire and Goole Hospitals NHS Foundation Trust",
+    "robots": true,
+    "site-url": "http://www.nlg.nhs.uk/",
+    "sitemap": false,
+    "ssl": "yes"
+}

@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.0 (loose)",
+    "headers": {
+        "poweredBy": "Fuse8, ASP.NET",
+        "server": "Microsoft-IIS/6.0"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1755",
+    "name": "North Tees and Hartlepool NHS Foundation Trust",
+    "robots": false,
+    "site-url": "http://www.nth.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

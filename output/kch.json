@@ -1,0 +1,14 @@
+{
+    "doctype": "HTML 5",
+    "headers": {
+        "poweredBy": null,
+        "server": "Microsoft-IIS/7.5"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1550",
+    "name": "King's College Hospital NHS Foundation Trust",
+    "robots": true,
+    "site-url": "http://www.kch.nhs.uk/",
+    "sitemap": false,
+    "ssl": "yes"
+}

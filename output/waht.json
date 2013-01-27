@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.0 (loose)",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/7.5"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=323",
+    "name": "Weston Area Health NHS Trust",
+    "robots": false,
+    "site-url": "http://www.waht.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

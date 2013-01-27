@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.0 (loose)",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/6.0"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1175",
+    "name": "Royal Devon and Exeter NHS Foundation Trust",
+    "robots": true,
+    "site-url": "http://www.rdehospital.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

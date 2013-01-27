@@ -1,0 +1,14 @@
+{
+    "doctype": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\">",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/6.0"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=967",
+    "name": "Pennine Acute Hospitals NHS Trust",
+    "robots": false,
+    "site-url": "http://www.pat.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

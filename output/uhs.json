@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.0 (strict)",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/7.5"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1259",
+    "name": "University Hospital Southampton NHS Foundation Trust",
+    "robots": false,
+    "site-url": "http://www.uhs.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

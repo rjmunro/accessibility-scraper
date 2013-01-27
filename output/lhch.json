@@ -1,0 +1,14 @@
+{
+    "doctype": "HTML 5",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/6.0"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=144",
+    "name": "Liverpool Heart and Chest NHS Foundation Trust",
+    "robots": false,
+    "site-url": "http://www.lhch.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

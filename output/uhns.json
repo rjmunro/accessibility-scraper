@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.0 (loose)",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/7.5"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1471",
+    "name": "University Hospital Of North Staffordshire NHS Trust",
+    "robots": false,
+    "site-url": "http://www.uhns.nhs.uk/",
+    "sitemap": true,
+    "ssl": "yes"
+}

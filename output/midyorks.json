@@ -1,0 +1,14 @@
+{
+    "doctype": "HTML 5",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": null
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1910",
+    "name": "Mid Yorkshire Hospitals NHS Trust",
+    "robots": true,
+    "site-url": "http://www.midyorks.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

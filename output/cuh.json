@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.0 (loose)",
+    "headers": {
+        "poweredBy": "PleskLin",
+        "server": "nginx"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=2039",
+    "name": "Cambridge University Hospitals NHS Foundation Trust",
+    "robots": false,
+    "site-url": "http://www.cuh.org.uk/",
+    "sitemap": false,
+    "ssl": "yes"
+}

@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.0 (loose)",
+    "headers": {
+        "poweredBy": "PHP/4.3.9",
+        "server": "Apache/2.0.52 (Red Hat)"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1596",
+    "name": "Sheffield Teaching Hospitals NHS Foundation Trust",
+    "robots": true,
+    "site-url": "http://www.sth.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

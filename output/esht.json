@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.0 (loose)",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/7.0"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1492",
+    "name": "East Sussex Healthcare NHS Trust",
+    "robots": true,
+    "site-url": "http://www.esht.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

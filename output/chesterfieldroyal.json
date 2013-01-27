@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.0 (loose)",
+    "headers": {
+        "poweredBy": null,
+        "server": "Apache/2.2.16 (Debian)"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=633",
+    "name": "Chesterfield Royal Hospital NHS Foundation Trust",
+    "robots": true,
+    "site-url": "http://www.chesterfieldroyal.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

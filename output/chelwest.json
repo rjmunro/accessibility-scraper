@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.0 (loose)",
+    "headers": {
+        "poweredBy": null,
+        "server": "nginx/1.2.1"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1863",
+    "name": "Chelsea and Westminster Hospital NHS Foundation Trust",
+    "robots": true,
+    "site-url": "http://www.chelwest.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

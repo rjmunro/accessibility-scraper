@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.0 (loose)",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": null
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=838",
+    "name": "Wirral University Teaching Hospital NHS Foundation Trust",
+    "robots": false,
+    "site-url": "http://www.whnt.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

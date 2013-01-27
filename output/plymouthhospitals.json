@@ -1,0 +1,14 @@
+{
+    "doctype": null,
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/6.0"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=2148",
+    "name": "Plymouth Hospitals NHS Trust",
+    "robots": false,
+    "site-url": "http://www.plymouthhospitals.nhs.uk/",
+    "sitemap": false,
+    "ssl": "yes"
+}

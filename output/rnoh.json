@@ -1,0 +1,14 @@
+{
+    "doctype": "HTML 5",
+    "headers": {
+        "poweredBy": "PHP/5.2.17",
+        "server": "Apache"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=420",
+    "name": "Royal National Orthopaedic Hospital NHS Trust",
+    "robots": true,
+    "site-url": "http://www.rnoh.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

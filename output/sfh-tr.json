@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.0 (loose)",
+    "headers": {
+        "poweredBy": "PHP/5.2.12-0.dotdeb.0",
+        "server": "Apache/2.2.8 (Ubuntu) mod_ssl/2.2.8 OpenSSL/0.9.8g"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=2234",
+    "name": "Sherwood Forest Hospitals NHS Foundation Trust",
+    "robots": true,
+    "site-url": "http://www.sfh-tr.nhs.uk/",
+    "sitemap": false,
+    "ssl": "yes"
+}

@@ -1,0 +1,14 @@
+{
+    "doctype": "HTML 5",
+    "headers": {
+        "poweredBy": "PHP/5.2.6",
+        "server": "Apache"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=997",
+    "name": "Bolton NHS Foundation Trust",
+    "robots": true,
+    "site-url": "http://www.boltonft.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

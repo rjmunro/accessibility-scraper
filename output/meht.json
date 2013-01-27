@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.1",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/6.0"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=2226",
+    "name": "Mid Essex Hospital Services NHS Trust",
+    "robots": false,
+    "site-url": "http://www.meht.nhs.uk/",
+    "sitemap": false,
+    "ssl": "yes"
+}

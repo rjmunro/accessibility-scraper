@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.0 (loose)",
+    "headers": {
+        "poweredBy": null,
+        "server": "Zope/(Zope 2.9.9-final, python 2.4.5, linux2) ZServer/1.1"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1222",
+    "name": "Moorfields Eye Hospital NHS Foundation Trust",
+    "robots": false,
+    "site-url": "http://www.moorfields.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

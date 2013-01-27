@@ -1,0 +1,14 @@
+{
+    "doctype": "HTML 5",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/7.5"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=2018",
+    "name": "West Middlesex University Hospital NHS Trust",
+    "robots": false,
+    "site-url": "http://www.west-middlesex-hospital.nhs.uk/",
+    "sitemap": false,
+    "ssl": "yes"
+}

@@ -1,0 +1,14 @@
+{
+    "doctype": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/7.5"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1544",
+    "name": "Salisbury NHS Foundation Trust",
+    "robots": true,
+    "site-url": "http://www.salisbury.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

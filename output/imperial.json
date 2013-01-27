@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.0 (loose)",
+    "headers": {
+        "poweredBy": null,
+        "server": "Apache/2.2.4 (Win32)"
+    },
+    "humans": true,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=2012",
+    "name": "Imperial College Healthcare NHS Trust",
+    "robots": false,
+    "site-url": "http://www.imperial.nhs.uk/",
+    "sitemap": false,
+    "ssl": "yes"
+}

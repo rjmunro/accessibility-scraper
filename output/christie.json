@@ -1,0 +1,14 @@
+{
+    "doctype": "HTML 5",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/7.5"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=243",
+    "name": "The Christie NHS Foundation Trust",
+    "robots": true,
+    "site-url": "http://www.christie.nhs.uk/",
+    "sitemap": false,
+    "ssl": "yes"
+}

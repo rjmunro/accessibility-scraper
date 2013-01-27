@@ -1,0 +1,14 @@
+{
+    "doctype": "HTML 5",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/7.0"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1368",
+    "name": "Nottingham University Hospitals NHS Trust",
+    "robots": false,
+    "site-url": "http://www.nuh.nhs.uk",
+    "sitemap": false,
+    "ssl": "always"
+}

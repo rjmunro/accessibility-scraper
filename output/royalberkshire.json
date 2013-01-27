@@ -1,0 +1,14 @@
+{
+    "doctype": "XHTML 1.0 (loose)",
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/6.0"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1249",
+    "name": "Royal Berkshire NHS Foundation Trust",
+    "robots": false,
+    "site-url": "http://www.royalberkshire.nhs.uk",
+    "sitemap": false,
+    "ssl": "yes"
+}

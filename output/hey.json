@@ -1,0 +1,14 @@
+{
+    "doctype": null,
+    "headers": {
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/7.0"
+    },
+    "humans": false,
+    "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1674",
+    "name": "Hull and East Yorkshire Hospitals NHS Trust",
+    "robots": false,
+    "site-url": "http://www.hey.nhs.uk/",
+    "sitemap": false,
+    "ssl": "yes"
+}
