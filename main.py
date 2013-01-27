@@ -26,8 +26,12 @@ def checkFile(url):
     fileText = ""
     try:
         fileCall = urllib2.urlopen(url)
+        if (fileCall.getcode != 200):
+            # we've been redirected
+            fileBool = False
+        else:
+            fileBool = True
         fileText = fileCall.read()
-        fileBool = True
     except urllib2.HTTPError, e:
         fileBool = False
     except urllib2.URLError, e:
