@@ -31,6 +31,10 @@ ul, li {
     margin: 0;
 }
 
+.trusts li {
+    padding-top: 15px;
+}
+
 a {
     color: #11B8BC;
     font-weight: 300;     
