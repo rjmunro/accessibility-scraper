@@ -281,7 +281,7 @@
     },
     {
         "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=34602",
-        "site-url": "parser issue :(",
+        "site-url": "http://www.iow.nhs.uk/",
         "name": "Isle Of Wight NHS Trust"
     },
     {
@@ -706,13 +706,8 @@
     },
     {
         "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=34603",
-        "site-url": "parser issue :(",
+        "site-url": "http://www.torbaycaretrust.nhs.uk",
         "name": "Torbay and Southern Devon Health and Care NHS Trust"
-    },
-    {
-        "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1307",
-        "site-url": "parser issue :(",
-        "name": "Trafford Healthcare NHS Trust"
     },
     {
         "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1990",
