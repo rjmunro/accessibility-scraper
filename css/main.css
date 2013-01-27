@@ -10,14 +10,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 100; 
 }
 
-h1 {
-    font-weight: 100;
-    font-size: 5.5em; 
-    text-align: center;
-    margin-top: 80px;
-    line-height: 1.1em;
-    color: #141414;
-}
+
 
 h2 {
     font-size: 1.4em;
@@ -114,4 +107,55 @@ form {
     margin-right: 15px;
 }
 
+
+
+h1 {
+    font-weight: 100;
+    font-size: 3em; 
+    text-align: center;
+    line-height: 1.1em;
+    color: #141414;
+}
+
+.ribbon {
+ width: 50%;
+ position: relative;
+ background: #11B8BC;
+ padding: 0.5em 1em;
+ margin: 70px auto 15px;
+}
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1.5em;
+ border: 2em solid #00858a;
+ z-index: -1;
+}
+.ribbon:before {
+ left: -2.5em;
+ border-right-width: 2em;
+ border-left-color: transparent;
+}
+.ribbon:after {
+ right: -2.5em;
+ border-left-width: 2em;
+ border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #006065 transparent transparent transparent;
+ bottom: -0.5em;
+}
+.ribbon .ribbon-content:before {
+ left: 0;
+ border-width: 0.5em 0 0 0.5em;
+}
+.ribbon .ribbon-content:after {
+ right: 0;
+ border-width: 0.5em 0.5em 0 0;
+}
 
