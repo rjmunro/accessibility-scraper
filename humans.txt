@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Colin Wren -- Developer -- @colinwren
+    Harry Jones -- Design / Frontend -- @hjonesdesign
+    Mariana Mota -- Designer -- @marianamota
+    Robert (Jamie) Munro -- Developer -- @rjmunro
+
+# THANKS
+
+    White October
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Twitter Bootstrap, HiCharts, FontAwesome, jQuery
+
