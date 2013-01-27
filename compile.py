@@ -21,11 +21,13 @@ servers = {}
 frameworks = {}
 sitemapTrue = 0
 sslTrue = 0
+siteList = {}
 
 #the loop
 for infile in listing:
     jsonFile = open(path + infile)
     siteJSON = json.load(jsonFile)
+    siteList[infile[:-5]] = siteJSON['name']
     if siteJSON['robots'] == True:
         robotsTrue+=1
     else:
@@ -44,4 +46,8 @@ overJSON = {'robotsTrue':robotsTrue,'robotsFalse':robotsFalse,'humansTrue':human
 #print
 outfile = io.open('overview.json', 'wb')
 json.dump(overJSON, outfile, sort_keys = True, indent=4, separators=(',', ': '))
+outfile.write('\n')
+
+outfile = io.open('list.json', 'wb')
+json.dump(siteList, outfile, sort_keys = True, indent=4, separators=(',', ': '))
 outfile.write('\n')
