@@ -109,6 +109,10 @@ for site in sites:
         json.dump(site, outfile, sort_keys=True, indent=4, separators=(',', ': '))
         outfile.write("\n")
 
+    if robots['present']:
+        with io.open('output/%s-robots.txt' % cleanname, 'wb') as outfile:
+            outfile.write(robots['contents']);
+
     print "Done '%s' in file '%s.json'" % (site['name'], cleanname)
 
 siteFile.close()
