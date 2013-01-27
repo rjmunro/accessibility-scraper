@@ -78,6 +78,11 @@ def getSsl(site, homePageObj):
 
     return checkFile('https' + site['site-url'][4:])['present'] and "yes" or "no"
 
+def getCMS(homepageText, robotsText):
+    if 'Joomla' in robotsText:
+        return 'Joomla'
+
+    return 'Unknown'
 
 #siteFile = open('all-sites.json');
 siteFile = open('test-data.json');
@@ -98,6 +103,7 @@ for site in sites:
     site['sitemap'] = checkSiteMap(robots['contents'], links)
     site['humans'] = humans['present']
     site['ssl'] = getSsl(site, homePageObj)
+    site['cms'] = getCMS(homePageHtml, robots['contents'])
 
     for re in nameRegexs:
         m = re.search(site['site-url'])
