@@ -30,19 +30,13 @@ $(function () {
             },
             series: [{
                 type: 'pie',
-                name: 'Browser share',
+                name: 'Server',
                 data: [
-                    ['Dont support mobile',   45.0],
-                    ['Uses media queries',       26.8],
-                    {
-                        name: 'Chrome',
-                        y: 12.8,
-                        sliced: true,
-                        selected: true
-                    },
-                    ['Has a mobile version of the site',    8.5],
-                    ['Another example',     6.2],
-                    ['Others',   0.7]
+                    ["Unknown", 7],
+                    ["Apache", 40],
+                    ["Microsoft-IIS", 113],
+                    ["Zope", 1],
+                    ["nginx", 4]
                 ]
             }]
         });
