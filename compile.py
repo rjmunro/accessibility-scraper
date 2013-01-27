@@ -6,7 +6,8 @@ import io
 def custom_listdir(path):
     dirs = sorted([d for d in os.listdir(path) if os.path.isdir(path + os.path.sep + d)])
     dirs.extend(sorted([f for f in os.listdir(path) if os.path.isfile(path + os.path.sep + f)]))
-    dirs = [x for x in dirs if not x.startswith('.')]
+    dirs = [x for x in dirs if x.endswith('.json')]
+
     return dirs
 
 path = 'output/'
