@@ -15,6 +15,8 @@ nameRegexs = [
     re.compile(r"http://([^.]*)\.")
 ]
 
+swfpat = re.compile("\.swf$")
+
 class NoRedirection(urllib2.HTTPErrorProcessor):
 
     def http_response(self, request, response):
@@ -78,6 +80,25 @@ def getSsl(site, homePageObj):
 
     return checkFile('https' + site['site-url'][4:]) and "yes" or "no"
 
+def concatScripts(baseurl, root):
+    #gather up all the scripts
+    jsscripts = root.findall(".//script[@type='text/javascript']")
+    allscripts = ''
+    for script in jsscripts:
+        if 'src' in script.attrib:
+            #TODO: check for absolute URLs
+            scriptgot = checkFile(baseurl + script.attrib['src'])
+            if scriptgot['present']:
+                allscripts = allscripts + "\n" + scriptgot['contents']
+        else:
+            allscripts = allscripts+"\n"+script.text
+    return allscripts
+
+def checkFlash(document, script):
+    for e in document.findall(".//embed"):
+        if 'src' in e.attrib['src'] and swfpat.search(e.attrib['src']):
+            return True
+    return "swflash.cab" in script
 
 #siteFile = open('all-sites.json');
 siteFile = open('test-data.json');
@@ -93,11 +114,14 @@ for site in sites:
     site['doctype'] = getDoctype(homePageHtml)
     links = checkLinkTags(rootNode)
 
+    scriptraw = concatScripts(site['site-url'], rootNode)
+
     site['headers'] = getHeaders(homePageObj)
     site['robots'] = robots['present']
     site['sitemap'] = checkSiteMap(robots['contents'], links)
     site['humans'] = humans['present']
     site['ssl'] = getSsl(site, homePageObj)
+    site['flash'] = checkFlash(rootNode,scriptraw)
 
     for re in nameRegexs:
         m = re.search(site['site-url'])
