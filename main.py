@@ -76,7 +76,7 @@ def getSsl(site, homePageObj):
         # We've been redirected
         return "always"
 
-    return checkFile('https' + site['site-url'][4:]) and "yes" or "no"
+    return checkFile('https' + site['site-url'][4:])['present'] and "yes" or "no"
 
 
 #siteFile = open('all-sites.json');
