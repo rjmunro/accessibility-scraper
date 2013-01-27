@@ -202,13 +202,13 @@
 		});
 		for(var i = 0; i < lists.length; i++){
 			if(i % 4 == 0){
-				listone = listone + lists(i);
+				listone = listone + lists[i];
 			}else if(i % 4 == 1){
-				listtwo = listtwo + lists(i);
+				listtwo = listtwo + lists[i];
 			}else if(i % 4 == 2){
-				listthree = listthree + lists(i);
+				listthree = listthree + lists[i];
 			}else if(i % 4 == 3){
-				listfour = listfour + lists(i);
+				listfour = listfour + lists[i];
 			}
 		}
 		$(".trusts").html('<div class="span3"><ul>' + listone + '</ul></div><div class="span3"><ul>' + listtwo + '</ul></div><div class="span3"><ul>' + listthree + '</ul></div><div class="span3"><ul>' + listfour + '</ul></div>');
