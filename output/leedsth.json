@@ -1,4 +1,6 @@
 {
+    "changesEachLoad": true,
+    "cms": "Unknown",
     "doctype": "XHTML 1.0 (loose)",
     "headers": {
         "poweredBy": "PHP/5.3.8",
@@ -10,5 +12,5 @@
     "robots": true,
     "site-url": "http://www.leedsth.nhs.uk",
     "sitemap": false,
-    "ssl": "yes"
+    "ssl": "no"
 }

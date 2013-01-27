@@ -1,5 +1,7 @@
 {
-    "doctype": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\">",
+    "changesEachLoad": false,
+    "cms": "Unknown",
+    "doctype": "HTML 4.0 (loose)",
     "headers": {
         "poweredBy": "ASP.NET",
         "server": "Microsoft-IIS/6.0"

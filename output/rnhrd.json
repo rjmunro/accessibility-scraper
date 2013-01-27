@@ -1,4 +1,6 @@
 {
+    "changesEachLoad": false,
+    "cms": "Unknown",
     "doctype": "HTML 5",
     "headers": {
         "poweredBy": "PHP/5.2.14",
@@ -9,6 +11,6 @@
     "name": "Royal National Hospital For Rheumatic Diseases NHS Foundation Trust",
     "robots": false,
     "site-url": "http://www.rnhrd.nhs.uk",
-    "sitemap": false,
-    "ssl": "yes"
+    "sitemap": true,
+    "ssl": "no"
 }

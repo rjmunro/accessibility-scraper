@@ -1,4 +1,6 @@
 {
+    "changesEachLoad": true,
+    "cms": "Unknown",
     "doctype": "XHTML 1.0 (loose)",
     "headers": {
         "poweredBy": "ASP.NET",
@@ -7,8 +9,8 @@
     "humans": false,
     "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1715",
     "name": "Western Sussex Hospitals NHS Trust",
-    "robots": false,
+    "robots": true,
     "site-url": "http://www.westernsussexhospitals.nhs.uk",
     "sitemap": false,
-    "ssl": "yes"
+    "ssl": "no"
 }

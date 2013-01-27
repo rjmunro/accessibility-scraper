@@ -1,4 +1,6 @@
 {
+    "changesEachLoad": false,
+    "cms": "Unknown",
     "doctype": null,
     "headers": {
         "poweredBy": "ASP.NET",
@@ -7,8 +9,8 @@
     "humans": false,
     "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1470",
     "name": "University Hospital Birmingham NHS Foundation Trust",
-    "robots": false,
+    "robots": true,
     "site-url": "http://www.uhb.nhs.uk",
     "sitemap": false,
-    "ssl": "yes"
+    "ssl": "no"
 }

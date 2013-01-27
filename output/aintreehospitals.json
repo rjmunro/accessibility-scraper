@@ -1,4 +1,6 @@
 {
+    "changesEachLoad": false,
+    "cms": "Unknown",
     "doctype": "HTML 4.01 (loose)",
     "headers": {
         "poweredBy": "ASP.NET",

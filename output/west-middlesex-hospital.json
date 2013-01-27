@@ -1,4 +1,6 @@
 {
+    "changesEachLoad": true,
+    "cms": "Unknown",
     "doctype": "HTML 5",
     "headers": {
         "poweredBy": "ASP.NET",
@@ -10,5 +12,5 @@
     "robots": false,
     "site-url": "http://www.west-middlesex-hospital.nhs.uk/",
     "sitemap": false,
-    "ssl": "yes"
+    "ssl": "no"
 }

@@ -1,4 +1,6 @@
 {
+    "changesEachLoad": false,
+    "cms": "Unknown",
     "doctype": "HTML 5",
     "headers": {
         "poweredBy": "PleskLin",

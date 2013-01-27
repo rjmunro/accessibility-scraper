@@ -1,4 +1,6 @@
 {
+    "changesEachLoad": false,
+    "cms": "Unknown",
     "doctype": null,
     "headers": {
         "poweredBy": "PHP/5.3.8",
@@ -9,6 +11,6 @@
     "name": "Calderdale and Huddersfield NHS Foundation Trust",
     "robots": false,
     "site-url": "http://www.cht.nhs.uk",
-    "sitemap": false,
-    "ssl": "yes"
+    "sitemap": true,
+    "ssl": "no"
 }

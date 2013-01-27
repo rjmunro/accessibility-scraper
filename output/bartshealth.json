@@ -1,4 +1,6 @@
 {
+    "changesEachLoad": false,
+    "cms": "Unknown",
     "doctype": "HTML 5",
     "headers": {
         "poweredBy": "PHP/5.3.17",
@@ -10,5 +12,5 @@
     "robots": true,
     "site-url": "http://www.bartshealth.nhs.uk",
     "sitemap": false,
-    "ssl": "yes"
+    "ssl": "no"
 }

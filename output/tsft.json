@@ -1,5 +1,7 @@
 {
-    "doctype": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\">",
+    "changesEachLoad": false,
+    "cms": "Unknown",
+    "doctype": "HTML 4.0 (loose)",
     "headers": {
         "poweredBy": "ASP.NET",
         "server": null
@@ -10,5 +12,5 @@
     "robots": false,
     "site-url": "http://www.tsft.nhs.uk",
     "sitemap": false,
-    "ssl": "yes"
+    "ssl": "no"
 }

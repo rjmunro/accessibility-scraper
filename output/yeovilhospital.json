@@ -1,4 +1,6 @@
 {
+    "changesEachLoad": false,
+    "cms": "Unknown",
     "doctype": null,
     "headers": {
         "poweredBy": "ASP.NET",
@@ -7,7 +9,7 @@
     "humans": false,
     "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=583",
     "name": "Yeovil District Hospital NHS Foundation Trust",
-    "robots": false,
+    "robots": true,
     "site-url": "http://www.yeovilhospital.nhs.uk",
     "sitemap": false,
     "ssl": "yes"

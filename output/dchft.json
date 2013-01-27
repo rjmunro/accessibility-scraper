@@ -1,4 +1,6 @@
 {
+    "changesEachLoad": false,
+    "cms": "Unknown",
     "doctype": null,
     "headers": {
         "poweredBy": null,
@@ -10,5 +12,5 @@
     "robots": false,
     "site-url": "http://www.dchft.nhs.uk",
     "sitemap": false,
-    "ssl": "yes"
+    "ssl": "no"
 }

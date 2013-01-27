@@ -1,4 +1,6 @@
 {
+    "changesEachLoad": false,
+    "cms": "Unknown",
     "doctype": null,
     "headers": {
         "poweredBy": "ASP.NET",
@@ -10,5 +12,5 @@
     "robots": true,
     "site-url": "http://www.nnuh.nhs.uk",
     "sitemap": false,
-    "ssl": "yes"
+    "ssl": "no"
 }

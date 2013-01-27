@@ -1,4 +1,6 @@
 {
+    "changesEachLoad": true,
+    "cms": "Unknown",
     "doctype": null,
     "headers": {
         "poweredBy": "ASP.NET",

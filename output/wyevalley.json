@@ -1,4 +1,6 @@
 {
+    "changesEachLoad": false,
+    "cms": "Unknown",
     "doctype": "HTML 5",
     "headers": {
         "poweredBy": "ASP.NET",
@@ -7,8 +9,8 @@
     "humans": false,
     "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1157",
     "name": "Wye Valley NHS Trust",
-    "robots": false,
+    "robots": true,
     "site-url": "http://www.wyevalley.nhs.uk",
     "sitemap": false,
-    "ssl": "yes"
+    "ssl": "no"
 }

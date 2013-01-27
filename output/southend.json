@@ -1,4 +1,6 @@
 {
+    "changesEachLoad": true,
+    "cms": "Unknown",
     "doctype": "HTML 5",
     "headers": {
         "poweredBy": "ASP.NET",
@@ -10,5 +12,5 @@
     "robots": true,
     "site-url": "http://www.southend.nhs.uk",
     "sitemap": true,
-    "ssl": "yes"
+    "ssl": "no"
 }

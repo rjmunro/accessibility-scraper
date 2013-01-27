@@ -1,4 +1,6 @@
 {
+    "changesEachLoad": true,
+    "cms": "Unknown",
     "doctype": "HTML 5",
     "headers": {
         "poweredBy": null,
@@ -7,7 +9,7 @@
     "humans": false,
     "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=81",
     "name": "Barnsley Hospital NHS Foundation Trust",
-    "robots": true,
+    "robots": false,
     "site-url": "http://barnsleyhospital.nhs.uk",
     "sitemap": false,
     "ssl": "yes"

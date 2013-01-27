@@ -1,4 +1,6 @@
 {
+    "changesEachLoad": false,
+    "cms": "Unknown",
     "doctype": "XHTML 1.1",
     "headers": {
         "poweredBy": "PHP/5.3.2, ASP.NET",

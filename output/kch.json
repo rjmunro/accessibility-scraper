@@ -1,4 +1,6 @@
 {
+    "changesEachLoad": true,
+    "cms": "Unknown",
     "doctype": "HTML 5",
     "headers": {
         "poweredBy": null,
@@ -10,5 +12,5 @@
     "robots": true,
     "site-url": "http://www.kch.nhs.uk/",
     "sitemap": false,
-    "ssl": "yes"
+    "ssl": "no"
 }

@@ -1,5 +1,7 @@
 {
-    "doctype": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\">",
+    "changesEachLoad": true,
+    "cms": "Unknown",
+    "doctype": "HTML 4.0 (loose)",
     "headers": {
         "poweredBy": "ASP.NET",
         "server": "Microsoft-IIS/6.0"
@@ -10,5 +12,5 @@
     "robots": false,
     "site-url": "http://www.pat.nhs.uk",
     "sitemap": false,
-    "ssl": "yes"
+    "ssl": "no"
 }

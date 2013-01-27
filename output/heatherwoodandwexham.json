@@ -1,4 +1,6 @@
 {
+    "changesEachLoad": false,
+    "cms": "Unknown",
     "doctype": "XHTML 1.0 (strict)",
     "headers": {
         "poweredBy": "PHP/5.2.4-2ubuntu5.26",

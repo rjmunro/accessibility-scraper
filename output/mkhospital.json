@@ -1,4 +1,6 @@
 {
+    "changesEachLoad": false,
+    "cms": "Unknown",
     "doctype": "XHTML 1.0 (loose)",
     "headers": {
         "poweredBy": null,
@@ -7,8 +9,8 @@
     "humans": false,
     "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=732",
     "name": "Milton Keynes Hospital NHS Foundation Trust",
-    "robots": true,
+    "robots": false,
     "site-url": "http://www.mkhospital.nhs.uk",
     "sitemap": false,
-    "ssl": "yes"
+    "ssl": "no"
 }

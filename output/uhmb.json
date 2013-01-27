@@ -1,4 +1,6 @@
 {
+    "changesEachLoad": false,
+    "cms": "Unknown",
     "doctype": "XHTML 1.0 (loose)",
     "headers": {
         "poweredBy": "PHP/5.2.17, PleskLin",
@@ -7,7 +9,7 @@
     "humans": false,
     "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=2246",
     "name": "University Hospitals Of Morecambe Bay NHS Foundation Trust",
-    "robots": false,
+    "robots": true,
     "site-url": "http://www.uhmb.nhs.uk",
     "sitemap": false,
     "ssl": "yes"

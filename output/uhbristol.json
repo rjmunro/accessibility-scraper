@@ -1,4 +1,6 @@
 {
+    "changesEachLoad": false,
+    "cms": "Unknown",
     "doctype": "XHTML 1.0 (loose)",
     "headers": {
         "poweredBy": "ASP.NET",
@@ -10,5 +12,5 @@
     "robots": false,
     "site-url": "http://www.uhbristol.nhs.uk",
     "sitemap": false,
-    "ssl": "yes"
+    "ssl": "no"
 }

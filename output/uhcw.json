@@ -1,4 +1,6 @@
 {
+    "changesEachLoad": false,
+    "cms": "Unknown",
     "doctype": "XHTML 1.0 (loose)",
     "headers": {
         "poweredBy": "PHP/4.3.9",
@@ -7,8 +9,8 @@
     "humans": false,
     "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1565",
     "name": "University Hospitals Coventry and Warwickshire NHS Trust",
-    "robots": false,
+    "robots": true,
     "site-url": "http://www.uhcw.nhs.uk/",
     "sitemap": false,
-    "ssl": "yes"
+    "ssl": "no"
 }

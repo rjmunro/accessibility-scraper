@@ -1,4 +1,6 @@
 {
+    "changesEachLoad": false,
+    "cms": "Unknown",
     "doctype": "XHTML 1.0 (strict)",
     "headers": {
         "poweredBy": null,
@@ -9,6 +11,6 @@
     "name": "Birmingham Children's Hospital NHS Foundation Trust",
     "robots": false,
     "site-url": "http://www.bch.nhs.uk",
-    "sitemap": false,
-    "ssl": "yes"
+    "sitemap": true,
+    "ssl": "no"
 }

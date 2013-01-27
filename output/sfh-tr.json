@@ -1,4 +1,6 @@
 {
+    "changesEachLoad": true,
+    "cms": "Joomla",
     "doctype": "XHTML 1.0 (loose)",
     "headers": {
         "poweredBy": "PHP/5.2.12-0.dotdeb.0",
@@ -10,5 +12,5 @@
     "robots": true,
     "site-url": "http://www.sfh-tr.nhs.uk/",
     "sitemap": false,
-    "ssl": "yes"
+    "ssl": "no"
 }
