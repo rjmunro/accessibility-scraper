@@ -36,7 +36,6 @@ $(document).ready(function () {
     });
     $(document).on("click", ".trusts ul li a", function (event) {
         event.preventDefault();
-        console.log("clicked");
         var trustFilename = $(this).attr('class');
         var trustHTML = "";
         $.getJSON('output/' + trustFilename + '.json', function (data) {
@@ -44,10 +43,8 @@ $(document).ready(function () {
             trustHTML += '<dl class="dl-horizontal">';
             trustHTML += '<dt>Site URL</dt>';
             trustHTML += '<dd>' + data['site-url'] + '</dd>';
-
             trustHTML += '<dt>Doctype</dt>';
             trustHTML += '<dd>' + data['doctype'] + '</dd>';
-
             trustHTML += '<dt>Server</dt>';
             trustHTML += '<dd>' + data['headers']['server'] + '</dd>';
             trustHTML += '<dt>Framework</dt>';
@@ -63,7 +60,7 @@ $(document).ready(function () {
             trustHTML += '<dt>Offers secure browsing (https)</dt>';
             trustHTML += '<dd>' + data['ssl'] + '</dd>';
             trustHTML += '</dl>';
-            console.log(trustHTML);
+
             $.colorbox({
                html: trustHTML
             });
