@@ -26,7 +26,7 @@ def checkFile(url):
     fileText = ""
     try:
         fileCall = urllib2.urlopen(url)
-        if (fileCall.getcode != 200):
+        if (fileCall.getcode() != 200):
             # we've been redirected
             fileBool = False
         else:
