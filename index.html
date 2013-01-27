@@ -132,95 +132,8 @@
                         <h3>See specific NHS websites:</h3>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="span3">                
-                        <ul>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                        </ul>
-                    </div>
-                     <div class="span3">                
-                        <ul>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                        </ul>
-                    </div>
-                     <div class="span3">                
-                        <ul>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                        </ul>
-                    </div>
-                    <div class="span3">                
-                        <ul>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                            <li><a href="#">Some text here</a></li>
-                        </ul>
-                    </div>                                                          
+                <div class="row trusts">
+                                                                          
                 </div>
             </div>
         </section>
@@ -266,12 +179,35 @@
 		$.getJSON('overview.json', function(data){
 			//do stuff with overview data or whatever	
 		});
-		$.getJSON('trusts.json', function(data){
+		$.getJSON('list.json', function(data){
 			//print out the list of trusts
+		var lists = new array();
+		var listone = "";
+		var listtwo = "";
+		var listthree = "";
+		var listfour = "";
+
+		$.each(data,function(key,value){
+			var linkStr = '<li><a class="' + key + '">' + value + '</a></li>';
+			lists.push(linkStr);
 		});
+		for(var i = 0; i < lists.length; i++){
+			if(i % 4 == 0){
+				listone = listone + linkStr;
+			}else if(i % 4 == 1){
+				listtwo = listtwo + linkStr;
+			}else if(i % 4 == 2){
+				listthree = listthree + linkStr;
+			}else if(i % 4 == 3){
+				listfour = listfour + linkStr;
+			}
+		}
+		$(".trusts").html('<div class="span3"><ul>' + listone + '</ul></div><div class="span3"><ul>' + listtwo + '</ul></div><div class="span3"><ul>' + listthree + '</ul></div><div class="span3"><ul>' + listfour + '</ul></div>');
 		
+
+
+		});
 		$(".trusts ul li a").click(function(){
-			console.log('done');
 			event.preventDefault();
 			//trustJSON = $(this).attr['class'];
 			$.colorbox({html:'<h1>hi</h1>'});
