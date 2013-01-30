@@ -1,16 +1,16 @@
 {
     "changesEachLoad": true,
     "cms": "Unknown",
-    "doctype": "XHTML 1.0 (loose)",
+    "doctype": "XHTML 1.0 (strict)",
     "headers": {
-        "poweredBy": null,
-        "server": null
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/7.5"
     },
     "humans": true,
     "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1629",
     "name": "Guy's and St Thomas' NHS Foundation Trust",
-    "robots": false,
+    "robots": true,
     "site-url": "http://www.guysandstthomas.nhs.uk/",
-    "sitemap": false,
-    "ssl": "always"
+    "sitemap": true,
+    "ssl": "no"
 }

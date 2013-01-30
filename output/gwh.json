@@ -1,16 +1,16 @@
 {
-    "changesEachLoad": true,
+    "changesEachLoad": false,
     "cms": "Unknown",
-    "doctype": "XHTML 1.0 (loose)",
+    "doctype": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"[]>",
     "headers": {
-        "poweredBy": null,
-        "server": null
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/6.0"
     },
     "humans": false,
     "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1892",
     "name": "Great Western Hospitals NHS Foundation Trust",
-    "robots": false,
+    "robots": true,
     "site-url": "http://www.gwh.nhs.uk",
-    "sitemap": false,
-    "ssl": "always"
+    "sitemap": true,
+    "ssl": "no"
 }

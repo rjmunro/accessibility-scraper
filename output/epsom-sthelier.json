@@ -1,10 +1,10 @@
 {
-    "changesEachLoad": true,
+    "changesEachLoad": false,
     "cms": "Unknown",
-    "doctype": "XHTML 1.0 (loose)",
+    "doctype": "XHTML 1.1",
     "headers": {
-        "poweredBy": null,
-        "server": null
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/7.5"
     },
     "humans": false,
     "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1822",
@@ -12,5 +12,5 @@
     "robots": false,
     "site-url": "http://www.epsom-sthelier.nhs.uk",
     "sitemap": false,
-    "ssl": "always"
+    "ssl": "no"
 }

@@ -3,14 +3,14 @@
     "cms": "Unknown",
     "doctype": "XHTML 1.0 (loose)",
     "headers": {
-        "poweredBy": null,
-        "server": null
+        "poweredBy": "ASP.NET",
+        "server": "Microsoft-IIS/6.0"
     },
-    "humans": false,
+    "humans": true,
     "listing-url": "http://nhs.uk/Services/Trusts/Overview/DefaultView.aspx?id=1153",
     "name": "Gloucestershire Hospitals NHS Foundation Trust",
-    "robots": false,
+    "robots": true,
     "site-url": "http://www.gloshospitals.nhs.uk/",
     "sitemap": false,
-    "ssl": "always"
+    "ssl": "yes"
 }
