@@ -1,7 +1,7 @@
 {
     "changesEachLoad": true,
     "cms": "Unknown",
-    "doctype": null,
+    "doctype": "XHTML 1.0 (strict)",
     "headers": {
         "poweredBy": "ASP.NET",
         "server": "Microsoft-IIS/7.5"
